@@ -3,7 +3,13 @@
 	"description" : "Good buttons make good neighbours",
 	"type" : "bolt-extension",
 	"keywords" : [
-		""
+		"icons",
+		"social media",
+		"social login",
+		"Facebook",
+		"Google",
+		"GitHub",
+		"Twitter"
 	],
 	"require" : {
 		"bolt/bolt" : ">=2.0.0,<3.0.0"
@@ -19,9 +25,7 @@
 			"init.php"
 		],
 		"psr-4" : {
-			"Bolt\\Extension\\Bolt\\ZocialIcons\\" : [
-				""
-			]
+			"Bolt\\Extension\\Bolt\\ZocialIcons\\" : ""
 		}
 	}
 }
