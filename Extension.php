@@ -22,7 +22,7 @@ class Extension extends \Bolt\BaseExtension
          * Frontend
          */
         if ($this->app['config']->getWhichEnd() == 'frontend') {
-            $this->addCSS('css/zocial.css', false);
+            $this->addCSS('css/zocial.css', true);
         }
 
     }
