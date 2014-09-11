@@ -19,3 +19,9 @@ or
 * Add class of .zocial
 * Add class for name of service e.g. .dropbox, .twitter, .github
 * Done :-)
+
+Credits
+-------
+
+This extension uses [Zocial CSS social buttons](http://zocial.smcllns.com/) by 
+[Sam Collins](http://zocial.smcllns.com/).
