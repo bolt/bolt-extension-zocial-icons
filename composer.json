@@ -27,10 +27,5 @@
 		"psr-4" : {
 			"Bolt\\Extension\\Bolt\\ZocialIcons\\" : ""
 		}
-	},
-	"extra" : {
-		"branch-alias" : {
-			"dev-master" : "2.0.x-dev"
-		}
 	}
 }
