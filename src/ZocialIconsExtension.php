@@ -4,7 +4,7 @@ namespace Bolt\Extension\Bolt\ZocialIcons;
 
 use Bolt;
 
-class Extension extends \Bolt\BaseExtension
+class ZocialIconsExtension extends \Bolt\BaseExtension
 {
     /**
      * @var Extension name
