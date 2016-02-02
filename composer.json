@@ -1,31 +1,36 @@
 {
-	"name" : "bolt/zocial-icons",
-	"description" : "Good buttons make good neighbours",
-	"type" : "bolt-extension",
-	"keywords" : [
-		"icons",
-		"social media",
-		"social login",
-		"Facebook",
-		"Google",
-		"GitHub",
-		"Twitter"
-	],
-	"require" : {
-		"bolt/bolt" : ">=2.0.0,<3.0.0"
-	},
-	"license" : "GPL-3.0+",
-	"authors" : [{
-			"name" : "Gawain Lynch",
-			"email" : "gawain.lynch@gmail.com"
-		}
-	],
-	"autoload" : {
-		"files" : [
-			"init.php"
-		],
-		"psr-4" : {
-			"Bolt\\Extension\\Bolt\\ZocialIcons\\" : ""
-		}
-	}
+    "name": "bolt/zocial-icons",
+    "description": "Good buttons make good neighbours",
+    "type": "bolt-extension",
+    "keywords": [
+        "icons",
+        "social media",
+        "social login",
+        "Facebook",
+        "Google",
+        "GitHub",
+        "Twitter"
+    ],
+    "require": {
+        "bolt/bolt": "^3.0"
+    },
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Gawain Lynch",
+            "email": "gawain.lynch@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\Bolt\\ZocialIcons\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-assets": "web",
+        "bolt-class": "Bolt\\Extension\\Bolt\\ZocialIcons\\ZocialIconsExtension",
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    }
 }
