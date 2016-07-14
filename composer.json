@@ -29,6 +29,7 @@
     "extra": {
         "bolt-assets": "web",
         "bolt-class": "Bolt\\Extension\\Bolt\\ZocialIcons\\ZocialIconsExtension",
+        "bolt-icon": "icon.png",
         "branch-alias": {
             "dev-master": "3.0.x-dev"
         }
