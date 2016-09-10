@@ -1,5 +1,8 @@
 # Changelog for Bolt Zocial Icons
 
+* 3.0.2 (2016-09-10)
+ * Fix bad import of Zocial assets
+
 * 3.0.1 (2016-05-30)
  * Update Zocial icons to 1.2.0
 
